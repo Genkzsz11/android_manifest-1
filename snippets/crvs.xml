@@ -46,11 +46,11 @@
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="rex" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="rex" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rex" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="rex" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="rex" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="rex" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="rex" revision="10-merge" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rex" revision="10-merge" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="rex" revision="10-merge" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="rex" revision="10-merge" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="rex" revision="10-merge" />
 
   <!-- Device -->
   <project path="device/du/sepolicy" name="device_du_sepolicy" remote="rex" />
@@ -88,7 +88,7 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="rex" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="rex" />
   <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="rex" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rex" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rex" revision="10-merge" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="rex" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rex" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="rex" />
